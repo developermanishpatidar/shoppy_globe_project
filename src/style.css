@@ -1,0 +1,75 @@
+.header {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+  
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+  
+.product-list,
+.cart {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+  
+.product-item,
+.cart-item,
+.product-detail {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+  
+.not-found {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+
+input[type="text"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+.not-found-container {
+    text-align: center;
+    padding: 100px 20px;
+    color: #333;
+}
+  
+.not-found-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+  
+.not-found-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+  
+.back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bfc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+  
+.back-link:hover {
+    background-color: #005bb5;
+}
